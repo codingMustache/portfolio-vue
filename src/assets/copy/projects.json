@@ -1,0 +1,165 @@
+[
+  {
+    "id": "1",
+    "order": 2,
+    "title": "Nola Devs",
+    "description": "Event Agragation of Tech events in New Orleans",
+    "longDescription": "This was a project to meant to be hosted and operating complety free for the community. There was no place where all the tech events being posted on a calendar. I built this with the help of the community for the community. Using a cron job hosted by vercel to query google calendars that event organizers were already using pull the data and store the data in a mongo database daily. Also working with Vercel analytics to keep an eye for usage, with about an avagerage 800 people a week using the app every week in a city's population of about 300k and a fairly small, dedicated, and tight knit tech scene.",
+    "technologies": [
+      "SvelteKit",
+      "Svelte",
+      "TypeScript",
+      "Flowbite",
+      "Vercel",
+      "Vite",
+      "Calendar",
+      "Cron",
+      "Organizing",
+      "TS",
+      "Mapbox",
+      "Mongoose",
+      "MongoDB",
+      "Github",
+      "Open Source"
+    ],
+    "status": "Completed",
+
+    "year": 2023,
+    "role": "Open Source Maintainer",
+    "links": {
+      "live": "https://demo-store.example.com",
+      "github": "https://github.com/username/ecommerce-store"
+    }
+  },
+  {
+    "id": "2",
+    "order": 3,
+    "title": "Returns Manager",
+    "description": "Internal tool for Managing returns from retail store to warehouse",
+    "longDescription": "Designed and delivered a greenfield application to manage product return workflows between 300+ franchise retail stores and corporate warehouses. Implemented authentication using Azure AD B2C, enabling users with existing corporate credentials to securely access the system. Configured role-based access control within the tenant, supporting two roles: Return Submitter and Return Approver. The approval workflow introduced a human validation step to prevent incorrect or fraudulent credit issuance. Successfully deployed the solution across all franchise locations and corporate warehouse operations.",
+    "technologies": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "MaterialUI",
+      "C#",
+      "Vite",
+      ".Net",
+      "SQL",
+      "MySQL",
+      "TS",
+      "Azure",
+      "Internal tool",
+      "Entity",
+      "RestAPI"
+    ],
+    "status": "Completed",
+    "year": 2026,
+    "role": "Software Engineer I"
+  },
+  {
+    "id": "3",
+    "order": 2,
+    "title": "Water Test",
+    "description": "Internal tool managing users and testing water parameters from their pools",
+    "longDescription": "Maintained a SaaS platform for managing customer water test data and profiles, including automated analysis and a rules-based engine to generate treatment and project recommendations. Partnered directly with a hardware manufacturer to integrate their testing device with the web application, enabling automated data capture and reducing manual entry. Implemented historical tracking, centralized cloud access, and multi-user support to improve operational efficiency.",
+    "technologies": [
+      "Javascript",
+      "C#",
+      ".Net",
+      "SQL",
+      "MySQL",
+      "Smarty Streets",
+      "Azure",
+      "Internal tool",
+      "Entity",
+      "RestAPI",
+      "Razor"
+    ],
+    "status": "Completed",
+    "year": 2026,
+    "role": "Software Engineer II"
+  },
+  {
+    "id": "4",
+    "order": 1,
+    "title": "Water Test Redesign",
+    "description": "Internal tool managing users and testing water parameters from their pools",
+    "longDescription": "Led a greenfield redesign of the legacy water testing SaaS platform to modernize the user experience, improve performance, and support future scalability. Re-architected the application with a modern, cloud-based design, replacing legacy components and streamlining core workflows for managing customer information, recording water test results, and generating automated treatment and project recommendations. Redesigned the user interface to improve usability for field technicians and office staff, reducing friction in data entry and analysis. Enhanced system reliability and maintainability through improved data models, API design, and modular architecture. Ensured seamless integration with existing hardware testing devices and preserved critical business logic while modernizing the overall platform. Delivered a scalable foundation that supports ongoing feature development, improved performance, and a better user experience across the organization.",
+    "technologies": [
+      "Next.js",
+      "React",
+      "AG Grid",
+      "TypeScript",
+      "Azure Maps",
+      "MaterialUI",
+      "Smarty Streets",
+      "C#",
+      "Vite",
+      ".Net",
+      "SQL",
+      "MySQL",
+      "TS",
+      "Azure",
+      "Entity",
+      "RestAPI"
+    ],
+    "status": "Active",
+    "year": 2026,
+    "role": "Software Engineer II"
+  },
+  {
+    "id": "5",
+    "order": 3,
+    "title": "Tui Apple Music",
+    "description": "A terminal-based Apple Music controller that lets you play, pause, skip, and manage playback directly from the command line.",
+    "longDescription": "This project is a terminal user interface (TUI) that allows you to control Apple Music entirely from the command line. Designed for developers, terminal enthusiasts, and keyboard-first users, the tool provides a fast and distraction-free way to manage your music without switching to the desktop app. Built with zsh scripting and powered by AppleScript, the interface communicates directly with the native macOS Music application. The TUI presents real-time playback information and responsive controls, making it easy to manage your listening session from within your workflow. Earned 76 GitHub stars, received the Starstruck badge on GitHub.",
+    "technologies": ["Applescript", "Zsh", "TUI"],
+    "status": "Completed",
+    "year": 2025,
+    "role": "OS Developer",
+    "links": {
+      "github": "https://github.com/codingMustache/tui-am"
+    }
+  },
+  {
+    "id": "6",
+    "order": 4,
+    "title": "Dynamic ReadME",
+    "description": "A tool that dynamically updates your GitHub profile README. Designed to run via cronjob or GitHub Actions.",
+    "longDescription": "This project is a JavaScript-based tool that lets you dynamically generate and update your GitHub profile README. Perfect for developers who want a living, interactive profile, it can be run automatically using a cronjob or integrated into GitHub Actions for seamless updates. Whether you want to display stats, project highlights, daily quotes, or any custom content, this tool automates the process, keeping your GitHub profile engaging and up-to-date without manual edits.",
+    "technologies": ["Javascript", "Cron", "Github Actions"],
+    "status": "Completed",
+    "role": "OS Developer",
+    "year": 2024,
+    "links": {
+      "github": "https://github.com/codingMustache/codingMustache"
+    }
+  },
+  {
+    "id": "7",
+    "order": 5,
+    "title": "API Importer",
+    "description": "An internal tool to import API information from vendor API to ve used with SalesForce.",
+    "longDescription": "Developed an internal data integration tool designed to synchronize customer, rental, and property information from a third-party vendor API into the organization’s core business systems. The application retrieves external data on a scheduled basis, processes and normalizes it, and stores it in a MongoDB database while simultaneously creating and updating records within the company’s Salesforce environment. The tool was built to support the operational workflow for managing customers, rental agreements, and property records, ensuring that internal teams always had accurate and up-to-date information across systems. Data transformation logic was implemented to map vendor-specific schemas to the internal data model and Salesforce objects, handling differences in structure, required fields, and validation rules. A strong emphasis was placed on reliability and fault tolerance. Comprehensive error handling was implemented throughout the ingestion pipeline to manage API timeouts, rate limits, malformed responses, and partial data failures. The system includes logging, retry mechanisms, and validation checks to prevent data corruption and to ensure consistency between MongoDB and Salesforce. Failed records are isolated and reported for review, allowing issues to be resolved without interrupting the overall synchronization process.",
+    "technologies": ["C#", "Cron", "MongoDB", "RestAPI"],
+    "status": "Completed",
+    "role": "Software Developer",
+    "year": 2023
+  },
+  {
+    "id": "7",
+    "order": 10,
+    "title": "Svelte Custom Roulette",
+    "description": "A npm UI svelte library for creating a customer roulette wheel.",
+    "longDescription": "Developed and published a reusable npm UI library built with Svelte that enables applications to create an interactive custom roulette wheel experience. The component was designed to help teams randomized custom selections in a visually engaging and customizable way. It was built with a focus on performance and simplicity, leveraging Svelte’s reactive architecture to ensure fast rendering and minimal bundle size. Developers can easily customize colors, labels, segments, and behavior to match their brand or use case.",
+    "technologies": ["npm", "ui", "svelte", "Javascript", "TS", "JS", "TypeScript"],
+    "status": "Completed",
+    "role": "Open Source Developer",
+    "year": 2023,
+    "links": {
+      "live": "https://www.npmjs.com/package/svelte-custom-roulette",
+      "github": "https://github.com/codingMustache/svelte-custom-roulette"
+    }
+  }
+]
