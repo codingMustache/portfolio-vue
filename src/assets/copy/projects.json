@@ -51,7 +51,8 @@
       "Azure",
       "Internal tool",
       "Entity",
-      "RestAPI"
+      "RestAPI",
+      "Scss"
     ],
     "status": "Completed",
     "year": 2026,
@@ -102,7 +103,8 @@
       "TS",
       "Azure",
       "Entity",
-      "RestAPI"
+      "RestAPI",
+      "Tailwind"
     ],
     "status": "Active",
     "year": 2026,
@@ -160,6 +162,68 @@
     "links": {
       "live": "https://www.npmjs.com/package/svelte-custom-roulette",
       "github": "https://github.com/codingMustache/svelte-custom-roulette"
+    }
+  },
+  {
+    "id": "7",
+    "order": 7,
+    "title": "Fridge Friend",
+    "description": "2nd place winner in a twilio hackathon, for community fridges in New Orleans.",
+    "longDescription": "This project was developed as part of a Twilio Hackathon focused on building solutions for local communities. Our app addresses the challenge of community fridges in New Orleans, providing a platform to connect volunteers, donors, and community members in real time. Users can easily track available items, receive notifications when supplies are low or replenished, and coordinate pickups or drop-offs. We leveraged Twilio’s communication APIs to enable instant messaging and alerts, ensuring that critical updates about fridge status reach the right people quickly. The platform also includes geolocation features, allowing users to find the nearest community fridge, and a simple interface for fridge managers to post updates and manage inventory. This project was recognized for its impact and technical execution, earning 2nd place in the hackathon. The judges highlighted the app’s ability to improve food accessibility, its seamless integration of real-time communication, and its potential to strengthen community engagement.",
+    "technologies": [
+      "Next.js",
+      "React",
+      "Javascript",
+      "TS",
+      "JS",
+      "TypeScript",
+      "community",
+      "twilio"
+    ],
+    "status": "Completed",
+    "role": "Open Source Developer",
+    "year": 2022,
+    "links": {
+      "github": "https://github.com/codingMustache/fridge-friend"
+    }
+  },
+  {
+    "id": "ajshdkfljas",
+    "order": 8,
+    "title": "Hole Dat",
+    "description": "Hole Dat is a social platform for New Orleans residents to report, share, and track potholes around the city. Stay informed, help others avoid hazards, and join a community keeping the streets safer.",
+    "longDescription": "Hole Dat is a community-driven social network designed to make navigating New Orleans safer and more informed. Users can report potholes in real time, share photos and locations, and see updates from others in their neighborhood. The platform encourages residents to collaborate in improving local infrastructure awareness, turning pothole reporting into a fun, interactive social experience. With features like location mapping, voting on critical potholes, and social feeds, Hole Dat not only helps drivers and cyclists avoid hazards but also fosters a connected, engaged community around a shared challenge. Whether you’re a daily commuter, a delivery driver, or just exploring the city, Hole Dat makes it easy to stay aware and contribute to the safety of New Orleans streets.",
+    "technologies": [
+      "Express.js",
+      "React",
+      "Javascript",
+      "TS",
+      "JS",
+      "Postgres",
+      "community",
+      "Sequelize",
+      "Scss"
+    ],
+    "status": "Completed",
+    "role": "Open Source Developer",
+    "year": 2022,
+    "links": {
+      "github": "https://github.com/codingMustache/holeDat"
+    }
+  },
+  {
+    "id": "vbyquw",
+    "order": 5,
+    "title": "Clare Tattoos",
+    "description": "A custom-built Svelte app integrated with NodeMailer to help a small business capture leads and communicate with customers efficiently, automating outreach and enhancing engagement.",
+    "longDescription": "This freelance project involved building a customer engagement platform for a small business using Svelte for the frontend and NodeMailer for email communication. The app allows the business to collect customer inquiries, send automated emails, and manage outreach campaigns, streamlining communication without relying on third-party platforms. The project emphasizes simplicity and usability, providing a clean interface for both the business owner and customers. Users can submit contact forms or requests, which are instantly processed and sent via NodeMailer, ensuring timely follow-ups. By combining Svelte’s reactive UI with NodeMailer’s reliable email delivery, this solution enhances customer experience, improves conversion rates, and frees up time for the business to focus on core operations.",
+    "technologies": ["SvelteKit", "Svelte", "TS", "Nodemail", "Tailwind"],
+    "status": "Completed",
+    "role": "Freelance Developer",
+    "year": 2022,
+    "links": {
+      "live": "https://www.clare.tattoo",
+      "github": "https://github.com/codingMustache/clares-retro-site"
     }
   }
 ]
