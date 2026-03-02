@@ -26,17 +26,17 @@ function downloadResume() {
   <div class="card">
     <img :src="Me" alt="Card image" class="card-image" />
     <h1 class="card-title">Hello There!</h1>
-    <div class="details">
-      <p>San Diego, CA</p>
-      <p>Full-stack developer</p>
-      <p>Home Lab enthusiast</p>
-      <p>Sci-Fi nerd</p>
-    </div>
+    <ul class="details">
+      <li>San Diego, CA</li>
+      <li>Full-stack developer</li>
+      <li>Home Lab enthusiast</li>
+      <li>Sci-Fi nerd</li>
+    </ul>
     <p>
       &emsp; I'm Jorge, and that's my dog, Bug. I love learning and making things from 3D objects in
       blender, to useful software, to sewing clothes. I got to travel the world in the Navy, serving
       2 tours. I'm originally from South Florida. Ask me about my homelab. <br />
-      &emsp; Welcome to my website, feel free to email me.
+      &emsp; Feel free to email me and lets get coffee IRL or virtually.
     </p>
 
     <div class="links">
@@ -70,11 +70,11 @@ function downloadResume() {
   border: 1px solid var(--secondary-color);
   border-radius: 8px;
   padding: 1rem;
-  max-width: 20rem;
+  max-width: 30rem;
   background-color: var(--bg-color, #fff);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-  font-family: system-ui, sans-serif;
   margin: 0 auto;
+  margin-top: 50px;
 }
 .card > p {
   text-align: left;

@@ -220,10 +220,25 @@
     "technologies": ["SvelteKit", "Svelte", "TS", "Nodemail", "Tailwind"],
     "status": "Completed",
     "role": "Freelance Developer",
-    "year": 2022,
+    "year": 2025,
     "links": {
       "live": "https://www.clare.tattoo",
       "github": "https://github.com/codingMustache/clares-retro-site"
+    }
+  },
+  {
+    "id": "vbyqasdfasduw",
+    "order": 4,
+    "title": "Jorge's Portfolio Site",
+    "description": "A modern, interactive portfolio site showcasing my projects, skills, and experience as a software developer, built to highlight both technical expertise and creative design.",
+    "longDescription": "My personal portfolio site serves as a central hub for my work as a software developer, showcasing a curated selection of projects, technical skills, and professional experience. Designed with a focus on clarity, usability, and modern web standards, the site highlights my expertise in frontend and backend development, including frameworks like Vue, Svelte, and Next.js, as well as integrations with various APIs and services. Beyond just a showcase, the portfolio is interactive and dynamic, allowing visitors to explore project details, view demos, and access code repositories. It also includes a contact section, making it easy for collaborators or potential employers to reach out. The site demonstrates not only my technical capabilities but also my attention to design, user experience, and problem-solving, serving as both a personal brand statement and a practical example of my work in action.",
+    "technologies": ["Vue", "TypeScript", "TS", "CSS", "Pinia"],
+    "status": "Active",
+    "role": "Software Developer",
+    "year": 2026,
+    "links": {
+      "live": "https://jorge.carvaj.al",
+      "github": "https://github.com/codingMustache/portfolio-vue"
     }
   }
 ]
