@@ -7,8 +7,6 @@ const store = useProjectStore()
 </script>
 
 <template>
-  <h1>Projects</h1>
-
   <ProjectSearch />
 
   <ProjectList :projects="store.filteredProjects" />

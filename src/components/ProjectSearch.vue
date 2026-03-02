@@ -27,7 +27,7 @@ function onInput(event: Event) {
   display: flex;
   align-items: center;
   margin: 0.5rem auto;
-  width: 10rem;
+  width: 20rem;
   border: 2px solid;
   border-radius: 100px;
   padding: 0 10px;

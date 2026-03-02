@@ -64,6 +64,7 @@ function toggleDescription() {
   border: 1px solid var(--text-color);
   border-radius: 6px;
   padding: 1rem;
+  height: fit;
 }
 
 .card-image {

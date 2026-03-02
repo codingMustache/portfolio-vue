@@ -18,16 +18,9 @@ defineProps<{
   display: grid;
   gap: 1rem;
   grid-template-columns: 1fr;
-  max-width: 60rem;
-  padding: 10xpx;
+  max-width: 40rem;
+  padding: 10px;
   margin: 0 auto;
   margin-bottom: 50px;
-}
-
-/* Large screens */
-@media (min-width: 768px) {
-  .list {
-    grid-template-columns: 1fr 1fr;
-  }
 }
 </style>
