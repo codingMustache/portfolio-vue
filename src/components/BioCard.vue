@@ -84,6 +84,7 @@ function downloadResume() {
   width: 100%;
   height: 20rem;
   object-fit: cover;
+  object-position: center -100px;
   border-radius: 6px;
   margin-bottom: 0.5rem;
 }
