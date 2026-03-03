@@ -74,7 +74,7 @@ function downloadResume() {
   background-color: var(--bg-color, #fff);
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .card > p {
   text-align: left;

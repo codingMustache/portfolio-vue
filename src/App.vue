@@ -4,14 +4,17 @@ import { RouterLink, RouterView } from 'vue-router'
 
 <template>
   <header>
-    <h1>Jorge Carvajal</h1>
+    <RouterLink to="/">
+      <h1>Jorge Carvajal</h1>
+    </RouterLink>
     <nav>
       <RouterLink to="/">Home</RouterLink>
       <RouterLink to="/projects">Projects</RouterLink>
     </nav>
   </header>
-
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style scoped>
